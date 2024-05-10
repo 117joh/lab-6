@@ -1,0 +1,152 @@
+/* Style rules for mobile viewport */
+
+/* Hide tab-desk class */
+.tab-desk {
+    display: none; 
+}
+header {
+    font-size: 1.5em;
+}
+header h1 {
+    font-family: 'DM Serif Display', serif;
+}
+main {
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: block;
+    border-top: 1px solid #e5e9fc;
+}
+.action {
+    font-size: 1.25em;
+}
+#piano, #guitar, #violin {
+    float: none;
+}
+#info ul {
+    margin-left: 10%;
+}
+#info ul {
+    margin-left: 10%;
+}
+
+.round {
+    border-radius: 8px;
+}
+#contact .email-link{
+
+}
+
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.email-link {
+
+}
+
+.map {
+    width: 95%;
+    height: 50%;
+}
+
+
+img {
+
+}
+
+/* Style rules for mobile viewport */
+
+
+/* Hide tab-desk class */
+.tab-desk {
+    display: none; }
+
+
+    /* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+
+    .tab-desk {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    span.tab-desk {
+        display: inline;
+    }
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #e5e9fc;
+        font-size: 1.5em; 
+    }
+    nav li:last-child {
+        border-right: none;
+    }
+    nav li a {
+        padding: 0.25em 0.5em; 
+    }
+     /* Tablet Viewport: Style rule for map */
+     .map {
+        width: 500px;
+        height: 450px;
+    }
+}
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+    header {
+        padding: 2%; 
+    }
+    /* Desktop Viewport: Style rules for nav area */
+    nav li a {
+        padding-top:  0.5em;
+        padding-bottom:  0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    nav li a:hover {
+        color: #373684; 
+        background-color: #e5e9fc; 
+    }
+    /* Desktop Viewport: Style rules for main content */
+    #info ul {
+        margin-left: 5%; 
+    }
+    main h3 {
+        font-size: 1.5em; 
+    }
+    #piano, #guitar, #violin {
+        width: 29%; 
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 2%;
+        margin-left: 2%;
+        float: left; 
+    }
+}
+/* Media Query for Print */
+@media print {
+    body {
+        background-color: #fff; 
+        color: #000; 
+    }
+}
